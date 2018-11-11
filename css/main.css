@@ -1,0 +1,85 @@
+body {
+  background-color: black;
+  margin: 0;
+}
+
+.wrapper {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  background-image: url(https://www.steamboatsprings-realestate.com/images/img_0313_1824.jpg);
+}
+
+.menu {
+  width: 100%;
+  /* background-color: white; */
+  height: 64px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.navMenu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+}
+
+.link{
+  margin: 0 16px;
+  color: blue;
+  text-decoration: none;
+  /* border: 5px solid white; */
+  font-size: 20px;
+  text-shadow: 1px 1px 1px #FFFFFF;
+}
+
+.link:hover {
+  border-bottom: 5px solid black;
+  font-size: 30px;
+}
+
+.link:visited {
+  color: blue;
+}
+
+.box {
+  margin-top: 20px;
+  width: 70%;
+  height: 5em;
+  background-color: lightgray;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.chip {
+  padding: 2px;
+  width: 2em;
+  height: 2em;
+  background-color: white;
+  border: 2px solid black;
+}
+
+h1 {
+  background-color: blue;
+  color: #ffffff;
+  text-shadow: 5px 5px 3px black;
+}
+
+#steamboat {
+  margin-top: 20px;
+  max-width: 70%;
+  display: none;
+}
+
+.active {
+  background-color: blue;
+}
